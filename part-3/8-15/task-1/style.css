@@ -1,0 +1,43 @@
+input[type="checkbox"] {
+  /* 1 */
+}
+
+input[type="checkbox"]:not(:checked) {
+  /* 2 */
+}
+
+[id|="message"] {
+  /* 3 */
+}
+
+[id^="message-"] {
+  /* 4 */
+}
+
+a[href$=".zip"] {
+  /* 5 */
+}
+
+[data-action~="delete"] {
+  /* 6 */
+}
+
+[data-action]:not([data-action~="delete"]) {
+  /* 7 */
+}
+
+#messages li:nth-child(even) {
+  /* 8 */
+}
+
+h3#widget-title + * {
+  /* 9 */
+}
+
+h3#widget-title ~ a {
+  /* 10 */
+}
+
+#messages li:last-child a {
+  /* 11 */
+}
