@@ -1,0 +1,12 @@
+body {
+  font: 14px/1.5 serif;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li:nth-child(2n + 3) {
+  margin-top: 1.5em;
+}
