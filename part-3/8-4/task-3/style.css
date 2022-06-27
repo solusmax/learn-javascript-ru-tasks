@@ -1,0 +1,56 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  margin-right: 5px;
+}
+
+.item__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+}
+
+.button--prev {
+  background-image: url("https://js.cx/clipart/arrow-left.jpg");
+}
+
+.button--next {
+  background-image: url("https://js.cx/clipart/arrow-right.jpg");
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(100%);
+}
