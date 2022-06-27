@@ -1,6 +1,6 @@
 'use strict';
 
-let userLogin = prompt("Кто там?", '');
+let userLogin = prompt('Кто там?', '');
 
 if (userLogin === 'Админ') {
   let userPassword = prompt('Пароль?', '');
@@ -15,5 +15,5 @@ if (userLogin === 'Админ') {
 } else if (userLogin === '' || userLogin === null) {
   alert( 'Отменено' );
 } else {
-  alert( "Я вас не знаю" );
+  alert( 'Я вас не знаю' );
 }
