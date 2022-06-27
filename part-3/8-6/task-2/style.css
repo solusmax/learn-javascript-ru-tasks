@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal__underlay {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+
+  background-color: rgba(163, 38, 212, 0.3);
+}
+
+.modal__content {
+  position: relative;
+
+  width: 300px;
+  min-height: 120px;
+  padding: 5px;
+  padding-left: 55px;
+  border: 1px solid black;
+
+  background: url(https://js.cx/clipart/key.png) 3px 5px white no-repeat;
+}
