@@ -1,0 +1,18 @@
+.left {
+  float: left;
+
+  width: 30%;
+
+  background: #aef;
+}
+
+.right {
+  float: right;
+
+  box-sizing: border-box;
+  width: 70%;
+  border-left: 3px black solid;
+  padding-left: 10px;
+
+  background: tan;
+}
