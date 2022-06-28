@@ -1,7 +1,7 @@
 'use strict';
 
 let user = {
-  name1: "John",
+  name1: 'John',
   years: 30
 };
 
