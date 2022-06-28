@@ -13,5 +13,5 @@ class Rabbit extends Animal {
   }
 }
 
-const rabbit = new Rabbit("Белый кролик");
+const rabbit = new Rabbit('Белый кролик');
 alert(rabbit.name);

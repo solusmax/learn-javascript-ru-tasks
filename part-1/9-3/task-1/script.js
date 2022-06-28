@@ -7,6 +7,6 @@ class Rabbit extends Object {
   }
 }
 
-const rabbit = new Rabbit("Кроль");
+const rabbit = new Rabbit('Кроль');
 
 alert(rabbit.hasOwnProperty('name'));
