@@ -1,17 +1,17 @@
 'use strict';
 
 const vasya = {
-  name: "Вася",
+  name: 'Вася',
   age: 25
 };
 
 const petya = {
-  name: "Петя",
+  name: 'Петя',
   age: 30
 };
 
 const masha = {
-  name: "Маша",
+  name: 'Маша',
   age: 28
 };
 

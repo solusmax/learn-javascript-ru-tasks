@@ -1,20 +1,20 @@
 'use strict';
 
 const vasya = {
-  name: "Вася",
-  surname: "Пупкин",
+  name: 'Вася',
+  surname: 'Пупкин',
   id: 1
 };
 
 const petya = {
-  name: "Петя",
-  surname: "Иванов",
+  name: 'Петя',
+  surname: 'Иванов',
   id: 2
 };
 
 const masha = {
-  name: "Маша",
-  surname: "Петрова",
+  name: 'Маша',
+  surname: 'Петрова',
   id: 3
 };
 
